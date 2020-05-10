@@ -1,0 +1,52 @@
+*{
+  text-align: center;
+  background: url('../images/clouds.jpg');
+  color: white;
+}
+.box{
+  width: 30rem;
+  height: 40rem;
+  border: 1px white solid;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+header{
+  margin: 2rem;
+  font-size: 2rem;
+}
+.box span{
+  margin: .5rem;
+}
+img{
+  display: block;
+  margin: 2rem auto;
+}
+.box > div {
+  margin: 3rem;
+}
+.position__center{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hide {
+  display: none;
+}
+.btn{
+  text-transform: uppercase;
+  display: block;
+  position: relative;
+  left: 38%;
+  margin-top: 1rem;
+}
+.show{
+  visibility: visible;
+}
+.btn:hover{
+  cursor: pointer;
+}
+.size--big{
+  font-size: 4rem;
+}
